@@ -81,6 +81,7 @@ REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"email
 REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
 REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1"}
 REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+<<<<<<< HEAD
 REQUESTING PAGE: GET / with {} and HTTP headers {}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"email"=>"mhartl@example.com", "password"=>"foobar"}, "commit"=>"Sign in"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
@@ -102,3 +103,5 @@ REQUESTING PAGE: POST /sessions with {"utf8"=>"\xE2\x9C\x93", "session"=>{"email
 REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
 REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1"}
 REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+=======
+>>>>>>> 821c711bb803b117017e03c16ceae75b3dfa7ed1
